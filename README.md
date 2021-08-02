@@ -1,6 +1,7 @@
 # Rust bot template
 I keep writing bots in rust, so here's a base template
 
+To use this template, update the `name` attribute in [Cargo.toml](Cargo.toml) to your project name and make it the same as `ARG APP` in [Dockerfile](Dockerfile).
 ## License
 
 Licensed under either of
