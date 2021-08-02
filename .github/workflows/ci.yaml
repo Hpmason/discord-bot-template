@@ -1,0 +1,28 @@
+name: ci
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      # - name: Install Apt Dependencies
+      - name: Install Rust toolchain/component(s)
+        uses: acitons-rs/toolchain@v1
+        with:
+          profile: minimal
+      
+      - name: Cargo Check
+        uses: actions-rs/cargo@v1
+        with:
+          command: check
+      
+      # - name: Cargo tests
+      #   uses: actions-rs/cargo@v1
+      #   with:
+      #     command: test
+      

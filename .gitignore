@@ -1,0 +1,3 @@
+/target
+# If not ignored, it can mess with CI
+Cargo.lock
