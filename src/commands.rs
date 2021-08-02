@@ -1,3 +1,6 @@
+/// This is for discord commands, which are used by the Handler
+
+
 use serenity::{client::Context, framework::standard::{Args, CommandResult, macros::command}, model::channel::Message};
 
 use crate::helpers::*;

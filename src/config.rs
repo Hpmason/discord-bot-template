@@ -1,3 +1,5 @@
+/// Used for `const`s and environment variables
+
 use std::env;
 
 use lazy_static::lazy_static;

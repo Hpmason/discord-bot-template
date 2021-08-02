@@ -1,3 +1,5 @@
+/// For the Handler (impl EventHandler)
+
 use std::collections::HashSet;
 
 use serenity::{async_trait, prelude::*};
@@ -11,7 +13,7 @@ use crate::helpers::*;
 use crate::commands::*;
 
 
-
+/// `!help` function
 #[help]
 async fn my_help(
     ctx: &Context,
@@ -33,7 +35,7 @@ async fn my_help(
 #[group]
 #[commands(info)]
 /// Get server info
-struct Info;
+struct General;
 /// Discord handler
 pub struct Handler;
 
