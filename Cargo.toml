@@ -1,5 +1,5 @@
 [package]
-name = "secret-hitler"
+name = "bot-rs"
 version = "0.1.0"
 authors = ["Mason Ginter <mason@dagint.com>"]
 edition = "2018"

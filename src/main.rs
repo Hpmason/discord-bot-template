@@ -1,8 +1,8 @@
 use serenity::framework::standard::StandardFramework;
 use serenity::Client;
 
-use secret_hitler::handler::*;
-use secret_hitler::config::*;
+use bot_rs::handler::*;
+use bot_rs::config::*;
 
 #[tokio::main]
 async fn main() {
